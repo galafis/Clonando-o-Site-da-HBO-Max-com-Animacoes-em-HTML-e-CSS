@@ -32,3 +32,23 @@ Como estudante de Ciência de Dados, sair um pouco da zona técnica e explorar o
 ---
 
 Feito com dedicação por um futuro cientista de dados que também curte construir interfaces bonitas e funcionais 💜
+
+
+## 📋 Descrição
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📦 Instalação
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 💻 Uso
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📄 Licença
+
+Descreva aqui o conteúdo desta seção.
