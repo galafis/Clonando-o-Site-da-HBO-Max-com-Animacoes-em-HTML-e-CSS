@@ -1,0 +1,10 @@
+{
+  "name": "clonando-o-site-da-hbo-max-com-animacoes-em-html-e-css",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido como parte do desafio final da Formação HTML e CSS na plataforma DIO. A proposta era criar um clone visual da página inicial da HBO Max utilizando apenas **HTML e CSS**, ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
