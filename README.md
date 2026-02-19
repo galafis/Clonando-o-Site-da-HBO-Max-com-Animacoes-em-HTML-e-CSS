@@ -1,4 +1,12 @@
-# 🎬 Projeto Clone HBO Max
+# Projeto Clone HBO Max
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Animations](https://img.shields.io/badge/CSS-Animations-blueviolet?style=for-the-badge)
+
+</div>
 
 ![Imagem Hero do Projeto HBO Max](assets/hbo-max-hero.png)
 
@@ -20,6 +28,34 @@ Colocar em prática todos os conceitos aprendidos durante a formação, especial
 - CSS3
 - Animações com `keyframes`
 - Layout flexível e responsivo
+
+## 🗺️ Estrutura da Página e Fluxo de Animações
+
+```mermaid
+flowchart TD
+    A[index.html] --> B[Header]
+    A --> C[Seção Hero]
+    A --> D[Seção de Planos]
+    A --> E[Seção de Catálogo]
+    A --> F[Footer]
+
+    B --> B1[Logo HBO Max]
+    B --> B2[Botão de Assinar]
+
+    C --> C1[Título Principal]
+    C --> C2[Subtítulo]
+    C --> C3[CTA Button]
+    C --> C4[Imagem de Fundo\nGradiente Overlay]
+
+    D --> D1[Card Plano Básico]
+    D --> D2[Card Plano Padrão]
+    D --> D3[Card Plano Premium]
+
+    C1 & C2 & C3 -->|@keyframes fadeInDown| AN1[Animação de Entrada\nfade + slide]
+    D1 & D2 & D3 -->|@keyframes fadeInUp| AN2[Animação de Entrada\nstagger delay]
+    E -->|@keyframes slideIn| AN3[Animação de Scroll]
+    AN1 & AN2 & AN3 --> R[Responsivo via Media Queries\nDesktop · Tablet · Mobile]
+```
 
 ## 🔗 Repositório base da expert
 
@@ -92,6 +128,34 @@ To put into practice all the concepts learned during the training, especially:
 - CSS3
 - Animations with `keyframes`
 - Flexible and responsive layout
+
+## 🗺️ Page Structure and Animation Flow
+
+```mermaid
+flowchart TD
+    A[index.html] --> B[Header]
+    A --> C[Hero Section]
+    A --> D[Plans Section]
+    A --> E[Catalog Section]
+    A --> F[Footer]
+
+    B --> B1[HBO Max Logo]
+    B --> B2[Subscribe Button]
+
+    C --> C1[Main Title]
+    C --> C2[Subtitle]
+    C --> C3[CTA Button]
+    C --> C4[Background Image\nGradient Overlay]
+
+    D --> D1[Basic Plan Card]
+    D --> D2[Standard Plan Card]
+    D --> D3[Premium Plan Card]
+
+    C1 & C2 & C3 -->|@keyframes fadeInDown| AN1[Entry Animation\nfade + slide]
+    D1 & D2 & D3 -->|@keyframes fadeInUp| AN2[Entry Animation\nstagger delay]
+    E -->|@keyframes slideIn| AN3[Scroll Animation]
+    AN1 & AN2 & AN3 --> R[Responsive via Media Queries\nDesktop · Tablet · Mobile]
+```
 
 ## 🔗 Expert's base repository
 
